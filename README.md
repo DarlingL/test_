@@ -44,11 +44,12 @@ robot testcase.robot
 ### DICAS ### 
 
 ```shell
-Verificar no arquivo testcase.robot o caminho dos resources  'BDDpt-br.robot' e  'resourceBDD.robot'
+Atualizar no arquivo testcase.robot o caminho dos resources 'BDDpt-br.robot' e 'resourceBDD.robot',
+conforme onde esteja o seu projeto.
 ```
 
 ```shell
 Sempre dar 2 espaços entre uma keyword e outra, entre uma keyword e um parâmetro,
- entre um parâmetro e outro, entre uma variável e seu valor atribuído, etc. 
- Caso contrário será identificado como uma string única.
+entre um parâmetro e outro, entre uma variável e seu valor atribuído, etc. 
+Caso contrário será identificado como uma string única.
 ```

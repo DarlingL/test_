@@ -27,7 +27,7 @@ pip install --pre --upgrade robotframework-seleniumlibrary
 
 ###  Drivers do Navegador  ###
 
- Baixe o drivers abaixo e os coloque em C:\Python27\Scripts:
+ Baixe os drivers abaixo e os coloque em C:\Python27\Scripts:
 
  ```shell
 - Chrome driver [https://sites.google.com/a/chromium.org/chromedriver/downloads]
@@ -37,7 +37,7 @@ pip install --pre --upgrade robotframework-seleniumlibrary
 
 ###  Executando  ###
 
-Dentro da pasta test_robot/feature executar:
+Dentro da pasta test_robot/features executar:
 ```shell
 robot testcase.robot
 ```
@@ -48,5 +48,7 @@ Verificar no arquivo testcase.robot o caminho dos resources  'BDDpt-br.robot' e 
 ```
 
 ```shell
-Sempre dar 2 espaços entre uma keyword e outra, entre uma keyword e um parâmetro, entre um parâmetro e outro, entre uma variável e seu valor atribuído, etc. Caso contrário será identificado como
+Sempre dar 2 espaços entre uma keyword e outra, entre uma keyword e um parâmetro,
+ entre um parâmetro e outro, entre uma variável e seu valor atribuído, etc. 
+ Caso contrário será identificado como uma string única.
 ```
